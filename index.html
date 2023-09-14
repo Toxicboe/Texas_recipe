@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3d9fc85515.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#recipe-list">RECIPE LIST</a></li>
+                    <li><a href="#add/edit">ADD/EDIT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <!-- <form action="/search" method="get">
+                    <input type="text" name="q" placeholder="Search">
+                    <input type="submit" value="Search">
+                </form> -->
+            </nav>
+
+            <div class="header_text">
+                <h1>Hi, We're passionate<br> about foodand <span>love <br>sharing our favorite recipes <br> </span> with
+                    you</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------Recipe List---------- -->
+
+    <div id="recipe-list">
+        <div class="container">
+            <h1 class="sub-title">Recipe List</h1>
+            <div class="recipe-list">
+                <div class="recipe">
+                    <a href="https://worldtravelchef.com/dal-bhat-recipe-from-nepal-nepali-dish/"><img
+                            class="image-resize" src="images/daal_bhaat.jfif"></a>
+                    <h2>Daal Bhaat</h2>
+                    <p>Dal bhat is the national dish of Nepal and is a staple food for many people. It consists of rice,
+                        lentil soup, and a vegetable curry. The lentil soup is made with red lentils, onions, tomatoes,
+                        and spices. The vegetable curry can be made with a variety of vegetables, such as potatoes,
+                        tomatoes, cauliflower, and spinach.
+                    </p>
+                    <!-- <a href="https://www.imnepal.com/nepali-momo/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://www.imnepal.com/nepali-momo/">Recipe Details</a></button>
+                    <button class="btn" type="button"><a href="">Order Now</a></button>
+                </div>
+                <div class="recipe">
+                    <img class="image-resize" src="images/gundruk.jfif">
+                    <h2>Gundruk Jhol</h2>
+                    <p>
+                        Gundruk jhol is a hearty soup made from fermented lentil leaves. It is a popular dish in the
+                        Himalayan region and is said to have medicinal properties. The leaves are fermented for several
+                        weeks, which gives the soup a unique flavor and texture. Gundruk jhol is typically served with
+                        rice or roti.
+                    </p>
+                    <!-- <a href="https://www.tipsnepal.com/gundruk-gracious-5-steps-of-famous-recipe/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://www.tipsnepal.com/gundruk-gracious-5-steps-of-famous-recipe/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="recipe">
+                    <img class="image-resize" src="images/momo.jpg">
+                    <h2>MO:MO</h2>
+                    <p>Momos are a type of steamed dumpling that is popular in Nepal, Tibet, and other parts of Asia.
+                        They are typically filled with ground meat, vegetables, or cheese. Momos can be served steamed,
+                        fried, or boiled. They are often served with a dipping sauce made from tomato chutney or chili
+                        sauce.</p>
+                    <a href="https://www.imnepal.com/nepali-momo/">Recipe Details</a>
+                    <button class="btn" type="button"><a href="https://www.imnepal.com/nepali-momo/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>-
+                </div>
+                <div class="recipe">
+                    <img class="image-resize" src="images/pizza.jfif">
+                    <h2>Pizza</h2>
+                    <p>
+                        Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of
+                        leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients
+                        (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.).</p>
+                    <!-- <a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="recipe">
+                    <img class="image-resize" src="images/thupka.jfif">
+                    <h2>Thupka</h2>
+                    <p>
+                        Thukpa is a comforting noodle soup made with meat or vegetables and is a staple food in Nepal
+                        and Tibet. It is a hearty and flavorful dish that is perfect for a cold day. Thukpa can be made
+                        with a variety of different noodles, including wheat noodles, rice noodles, or buckwheat
+                        noodles.
+                    </p>
+                    <!-- <a href="https://www.century-foods.com/thukpa-recipe/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://www.century-foods.com/thukpa-recipe/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="work">
+                    <img class="image-resize" src="images/laphing.jpg">
+                    <h2>Laphing</h2>
+                    <p>
+                        Laphing is a cold, spicy noodle salad from Nepal. It is made with buckwheat noodles, vegetables,
+                        and spices. The noodles are cooked and then chilled, then tossed with a dressing made from soy
+                        sauce, vinegar, chili oil, and spices. The vegetables are typically julienned or shredded, and
+                        may include carrots, cucumbers, onions, and tomatoes. Laphing is often served as a snack or
+                        light meal, and can be garnished with fresh cilantro or mint.
+                    </p>
+                    <!-- <a href="https://pragativadi.com/tibetan-laphing-recipe/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://pragativadi.com/tibetan-laphing-recipe/">">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="work">
+                    <img class="image-resize" src="images/sekuwa.webp">
+                    <h2>Sekuwa</h2>
+                    <p>
+                        Sekuwa is a popular Nepalese dish of grilled skewered meat. It is typically made with chicken,
+                        lamb, or goat, and is marinated in a mixture of spices, such as turmeric, cumin, coriander, and
+                        chili powder. The meat is then skewered and grilled over charcoal or wood fire. Sekuwa is often
+                        served with a dipping sauce made from tomato chutney or chili sauce. It is a popular dish at
+                        barbecues, parties, and festivals.
+                    </p>
+                    <!-- <a href="http://www.weallnepali.com/recipe/non-vegetarian/sekuwa">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="http://www.weallnepali.com/recipe/non-vegetarian/sekuwa">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="work">
+                    <img class="image-resize" src="images/aloo-paratha.jfif">
+                    <h2>Aloo Paratha</h2>
+                    <p>
+                        Aloo paratha is a classic Indian flatbread stuffed with a spiced potato filling. It is a hearty
+                        and satisfying dish that is perfect for breakfast, lunch, or dinner. The dough is made with
+                        whole wheat flour and the filling is made with mashed potatoes, onions, spices, and herbs. The
+                        parathas are cooked on a hot griddle or tawa until golden brown and flaky. They are often served
+                        with butter, chutney, or yogurt.
+                    </p>
+                    <!-- <a href="https://www.whiskaffair.com/aloo-paratha-recipe/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://www.whiskaffair.com/aloo-paratha-recipe/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="recipe">
+                    <img class="image-resize" src="images/panipuri.jfif">
+                    <h2>Pani Puri</h2>
+                    <p>
+                        Panipuri is a popular Indian street food consisting of a small, hollow, crispy, deep-fried ball
+                        filled with a mixture of mashed potatoes, chickpeas, onions, spices, and chili, and dipped in
+                        flavored water (pani), tamarind water, chili water, and green chutney.
+                    </p>
+                    <!-- <a href="https://www.cookingcarnival.com/pani-puri/">Recipe Details</a> -->
+                    <button class="btn" type="button"><a href="https://www.cookingcarnival.com/pani-puri/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+                <div class="recipe">
+                    <img class="image-resize" src="images/samosa.jpg">
+                    <h2>Samosa</h2>
+                    <p>
+                        Samosas are triangular pastries filled with spiced potatoes, peas, and onions. They are a
+                        popular snack or appetizer in Nepal and many other South Asian countries. Samosas are often
+                        deep-fried until golden brown and crispy, but they can also be baked. They are often served with
+                        a dipping sauce, such as chutney or raita. Samosas are a delicious and satisfying snack that is
+                        perfect for any occasion.
+                    </p>
+                    <!-- <a href="https://www.recipetineats.com/samosa-recipe/">Recipe Details </a> -->
+                    <button class="btn" type="button"><a href="https://www.recipetineats.com/samosa-recipe/">Recipe Details</a></button>
+                    <button class="btn" type="button">Order Now</button>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ---------Contact Form--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <h1 class="sub-title">Contact Us</h1>
+
+                <div class="contact-up">
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div>
+                            <label>Full Name</label>
+                            <input type="text" name="fullName" placeholder="Your Name" required>
+                        </div>
+                        <div>
+                            <label>Address</label>
+                            <input type="text" name="address" placeholder="Your Address" required>
+                        </div>
+                        <div>
+                            <label>Contact</label>
+                            <input type="text" name="contact" placeholder="Your Number">
+                        </div>
+                        <div>
+                            <label>Message</label>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="button" type="button">Submit</button>
+                    </form>
+                    <td>
+                        <table class="list" id="costumerlist">
+                            <thead>
+                                <tr>
+                                    <th>Full Name</th>
+                                    <th>Address</th>
+                                    <th>Contact</th>
+                                    <th>Message</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </td>
+                </div>
+                <div class="contact-down">
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@hmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +977 98********</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script >
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
